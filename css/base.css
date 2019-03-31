@@ -1,0 +1,44 @@
+/* @font-face{
+	font-family:'myFirstFont';
+	src:url('../font/FZLTXHJW.ttf');
+	font-weight:normal;
+	font-style:normal;
+} */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+body{font-family:"黑体",Arial,"Helvetica Neue",Helvetica,sans-serif;} 
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:'Noto Sans', sans-serif; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+sup { vertical-align:text-top; top:5px; left:2px; font-size: 0.3rem;}
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+h1,h2,h3,h4,h5,h6{font-weight: 300;}
+table { border-collapse:collapse; border-spacing:0; }
+p{word-wrap:break-word; /*text-align:justify; text-justify:inter-ideograph;*/}
+input[type="button"], input[type="submit"], input[type="reset"], select ,textarea,button {-webkit-appearance: none; border:none; outline: none;}
+.clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.clearfix{zoom:1;}
+
+/*   美化多选框-单选框-美化select下拉框 纯css3   */
+.regular_checkbox , .regular-radio { display: none;}
+.regular_checkbox + label { background-color: #fafafa;border: 1px solid #a4a9ae;  vertical-align: middle; box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);padding: 0;border-radius: 3px;display: inline-block;position: relative;width: 14px;height: 14px;margin-right:12px;}
+.regular_checkbox:checked + label {border: none;box-shadow: none;width: 14px;height: 14px; border:1px solid #a4a9ae; background: url(../images/icon.png) -229px -38px;}
+.regular_radio + label {-webkit-appearance: none;background-color: #fafafa;border: 1px solid #cacece;box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);padding: 9px;border-radius: 50px;display: inline-block;position: relative;}
+.regular_radio:checked + label:after {content: ' ';width: 12px;height: 12px;border-radius: 50px;position: absolute;top: 3px;background: #00bbc4;left: 3px;font-size: 32px;}
+.regular_radio:checked + label {background-color: #e9ecee;color: #99a1a7;border: 1px solid #adb8c0;box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);}
+.regular_radio + label:active, .regular-radio:checked + label:active {box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);}
+.select { display: inline-block; position: relative; margin-bottom: 16px; margin-right: 10px; vertical-align: overflow: hidden; background: #fff; border: 1px solid #dddddd; text-shadow: none; position: relative;-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; -moz-transition: box-shadow 0.25s ease;  -o-transition: box-shadow 0.25s ease; -webkit-transition: box-shadow 0.25s ease; transition: box-shadow 0.25s ease;}
+.select select,.royalty_select select{ width: 140px; cursor: pointer; /* padding: 0.5em; */  padding-right: 1em; font: inherit;color: #707070; border: none;  background: transparent; background-image: none; -webkit-appearance: none; -moz-appearance: none;}
+select::-ms-expand { display: none; }
+.select.time-select select { width: 80px;}
+.select select option { color: #555;} 
+.select:after { display: block; content:'';  width: 10px;height: 10px; position: absolute; right: 10px; top: 10px; pointer-events: none; background: url(../images/icon.png) no-repeat center -13px;}
+.forget_radio{vertical-align: middle; margin:-1px 2px 0 0;}
+.regular_radio:checked + .forget_radio:after{width:8px; height:8px; left:2px; top:2px;}
+

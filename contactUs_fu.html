@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>深圳市一智源科技有限公司 | pcb板生产商 | 中小批量线路板 | 线路板打样</title>
+    <meta name="description" content=" 深圳市一智源科技有限公司是以生产高端印制电路为主，集设计研发、加工、销售、外贸为一体的高新技术企业。主要生产高精密度2-16层、双面、多层、阻抗，盲埋、厚铜、铝基等pcb板加工，广泛应用于通讯、医疗、电源、仪表、网络、计算机、消费类电子等高科技领域。">
+    <meta name="keywords" content="深圳市一智源科技有限公司|pcb多层线路板|线路板样品|中小批量线路板|线路板批发|线路板零售|pcb|一智源|一智源科技有限公司">
+    <meta name="author" content="深圳市一智源科技有限公司|vip@family-zh.cn">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/animate.css/2.0.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body data-spy="scroll" data-target="#navbar-example" data-offset="20">
+<section id="contact">
+    <div class="container">
+        <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">联系我们</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="block wow slideInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <i class="fa fa-paper-plane-o"></i>
+                    <p>联系地址</p>
+                    <em>销售部地址：广东省深圳市宝安区运达综合楼705B<br/>工厂地址：广东省惠州市博罗县园洲镇禾山工业区</em>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="block wow slideInLeft" data-wow-delay=".3s" data-wow-duration="800ms">
+                    <i class="fa fa-phone"></i>
+                    <p>销售部联系电话</p>
+                    <em>林先生：189-2341-0501<br/>吴小姐：189-2341-7212</em>
+                </div>
+            </div>
+            <div class="col-md-3 wow slideInLeft" data-wow-delay=".3s" data-wow-duration="1100ms">
+                <div class="block">
+                    <i class="fa fa-envelope-o"></i>
+                    <p>邮箱地址</p>
+                    <em>winmkt@yzypcb.com</em>
+                </div>
+            </div>
+            <div class="col-md-3 wow slideInLeft" data-wow-delay=".3s" data-wow-duration="1400ms">
+                <div class="block">
+                    <i class="fa fa-qq"></i>
+                    <p>联系QQ</p>
+                    <em>1773426272</em>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="footer">
+    <div class="container">
+        <div class="col-md-8">
+            <p class="copyright">Copyright &#169; <span><script>document.write(new Date().getFullYear())</script></span>
+                深圳市一智源科技有限公司 版权所有
+            </p>
+        </div>
+        <div class="col-md-4">
+            <!-- Social Media -->
+            <ul class="social">
+                <li>
+                    <a href="javascript:shareQQ();" title="分享到QQ好友">
+                        <i class="fa fa-qq"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:shareWeibo()">
+                        <i class="fa fa-weibo" title="分享到新浪微博"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer> <!-- /#footer -->
+<div class="fixbar hidden-xs">
+    <ul>
+        <li class="back-top" style="display: none;"><img src="images/icons/top.svg"/> <a class="hide">回到顶部</a></li>
+        <li class="qrcode" data-container="body" data-toggle="popover" data-title="扫码手机预览" data-placement="left" data-content="<img src='images/qrcode.png' class='img-thumbnail'/>" trigger="hover" data-html="true" style="border-bottom: 1px solid #fff;"><img src="images/icons/qrcode.svg"/>
+        <a class="hide">扫码预览</a>
+        </li>
+    </ul>
+</div>
+<img src='images/qrcode.png' class='hide'/>
+<script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/wow/1.0.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+    $(function () {
+        $('.fixbar ul li').hover(function() {
+            var $li = $(this)
+            $li.addClass('fixbar-li').find('img').addClass('hide')
+            $li.find('a').removeClass('hide')
+
+        },function() {
+             var $li = $(this)
+            $li.removeClass('fixbar-li').find('img').removeClass('hide')
+            $li.find('a').addClass('hide')
+        })
+
+        $('.qrcode').popover({ trigger:'hover' });
+        if ($(window).width() > 767) {
+            if ($(window).scrollTop() > 100) {
+                $('.back-top').fadeIn(1000);
+            }
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 100) {
+                    $('.back-top').fadeIn(1000);
+                } else {
+                    $(".back-top").fadeOut(1000);
+                }
+            });
+            $(".back-top").click(function () {
+                $('html').animate({scrollTop: 0}, 1000);
+                return false;
+            });
+        }
+    })
+    var params = {
+            url: 'http://www.yzypcb.com',
+            desc: '深圳市一智源科技有限公司是专业生产高精密pcb多层线路板公司，主要生产2-16层高品质快板，样品及中小批量线路板，工厂设计月产能20000平米。产品主要运用于通信、网络、电源、工业控制，计算机应用、医疗等领域。\n' +
+            '     以价格优、交期快、质量好，为创客和工程师获得竞争优势，并得到市场和客户的广泛认同和支持。 公司从国内外引进了pcb行业的先进设备，并拥有专业的工程设计和生产团队。',
+            title: '深圳市一智源科技有限公司',
+            pics: 'http://www.yzypcb.com/images/logo.png',
+        },
+        shareQQ = function () {
+            var s = [];
+            for (var i in params) {
+                s.push(i + '=' + encodeURIComponent(params[i] || ''));
+            }
+            var qhref = "http://connect.qq.com/widget/shareqq/index.html?" + s.join('&');
+            window.open(qhref, '_blank')
+        },
+        shareWeibo = function () {
+            window.open('http://v.t.sina.com.cn/share/share.php?pic=' + params.pics + '&title=' + encodeURIComponent(params.title) + '&url=' + encodeURIComponent(params.url) + '&source=bookmark', '_blank');
+        }
+</script>
+</body>
+</html>
