@@ -22,7 +22,7 @@ function commonHtml(insert){
                     <a class="icon news" href="./index.html#factory"  title="生产">生产</a>
                 </li>
                 <li>
-                    <a class="icon mouse no-url" title="服务">服务</a>
+                    <a class="icon mouse no-url" title="加工能力">加工能力</a>
                 </li>
                 <li>
                     <a class="icon my no-url" title="我们">我们</a>
@@ -31,9 +31,9 @@ function commonHtml(insert){
         </div>
         <div class="left-nav-box">
             <div class="left-nav">
-                <h2 class="mouse">服务</h2>
+                <h2 class="mouse">加工能力</h2>
                 <ul>
-                    <li><a href="./sbzsPage.html">设备展示</a></li>
+                    <li><a href="./sbzsPage.html">主要设备清单</a></li>
                     <li><a href="./scnlPage.html">工艺能力</a></li>
                 </ul>
             </div>
