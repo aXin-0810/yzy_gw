@@ -19,7 +19,7 @@ function commonHtml(insert){
                     <a class="icon park" href="./index.html#product"  title="产品">产品</a>
                 </li>
                 <li>
-                    <a class="icon news" href="./index.html#factory"  title="生产">生产</a>
+                    <a class="icon news" href="./index.html#factory"  title="设备展示">设备展示</a>
                 </li>
                 <li>
                     <a class="icon mouse no-url" title="加工能力">加工能力</a>
