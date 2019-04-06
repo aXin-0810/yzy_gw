@@ -1126,11 +1126,11 @@ label {
 }
 
 .index-h2 {
-    font-size: 1.875rem;
+    font-size: 1.6rem;
 }
 
 .index-h3 {
-    font-size: 0.875rem;
+    font-size: 0.7rem;
     font-family: Arial;
     margin-top: 10px;
 }
@@ -4253,7 +4253,7 @@ label {
         width: 5.4rem;
         left: .62rem;
         bottom: 1.25rem;
-        color: #fff;
+        color: #4fcfdf;
         padding: 0 0 0;
         box-sizing: border-box;
         padding-bottom: 1rem;
