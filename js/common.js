@@ -16,7 +16,7 @@ function commonHtml(insert){
                     <a class="icon home" href="./index.html#homeTop" title="首页">首页</a>
                 </li>
                 <li>
-                    <a class="icon park" href="./index.html#product"  title="产品">产品</a>
+                    <a class="icon park" href="./index.html#product"  title="产品展示">产品展示</a>
                 </li>
                 <li>
                     <a class="icon news" href="./index.html#factory"  title="设备展示">设备展示</a>
@@ -25,7 +25,7 @@ function commonHtml(insert){
                     <a class="icon mouse no-url" title="加工能力">加工能力</a>
                 </li>
                 <li>
-                    <a class="icon my no-url" title="我们">我们</a>
+                    <a class="icon my no-url" title="关于我们">关于我们</a>
                 </li>
             </ul>
         </div>
