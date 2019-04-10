@@ -42,6 +42,7 @@ function commonHtml(insert){
                 <ul>
                     <li><a href="./about.html">公司介绍</a></li>
                     <li><a href="./companyStructure.html">公司架构</a></li>
+                    <li><a href="./processFlow.html">工艺流程</a></li>
                     <li><a href="./contactUs.html">联系方式</a></li>
                 </ul>
             </div>
